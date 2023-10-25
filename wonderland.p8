@@ -37,8 +37,8 @@ end
 
 function create_player()
 	p={
-	x=59, --starting position
-	y=59,
+	x=60, --starting position
+	y=60,
 	dx=0, --direction
 	dy=0,
 	max_dx=2, --speed limit
@@ -75,15 +75,7 @@ end
 --collisions
 
 function collide_map(obj,aim,flag)
-	--objet = table needs x,y,w,h
-	
-	local x=obj.x local y=obj.y
-	local w=obj.w local h=obj.h
-	
-	local x1=0 local y1=0
-	local x2=0 local y2=0
 
-end
 __gfx__
 000000000033b000000b00000000000000000000cc1111cccc111cccccccccccbbbbbbbb55555555ccccccccccc5555ccccccccccccccccccccccccc77777777
 00000000000aba0000a3aa000000000000000000c199aa1cc19aa1cccccccccc3333333354446665cccccccccc55675ccc7777cccccc55cccccccccc77777777
